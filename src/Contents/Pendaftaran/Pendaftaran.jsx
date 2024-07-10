@@ -34,15 +34,15 @@ const Pendaftaran = () => {
 
     return (
         <section className='pendaftaran' id='PENDAFTARAN'>
-            <h1 className="title">PENDAFTARAN</h1>
-            <h4>Tata Cara Pendaftaran di Bimba IFE: Panduan Lengkap untuk Orang Tua dan Siswa Baru</h4>
+            <h1 className="title" data-aos="fade-up">PENDAFTARAN</h1>
+            <h4 data-aos="fade-up">Tata Cara Pendaftaran di Bimba IFE: Panduan Lengkap untuk Orang Tua dan Siswa Baru</h4>
             {dropdownData.map((item, index) => (
-                <div key={item.id}>
+                <div data-aos="fade-up" key={item.id}>
                     <button className={`dropdown-btn ${activeDropdown === index ? 'active' : ''}`}
                     onClick={() => toggleDropdown(index)}>
                         {index + 1}. {item.title} <IoChevronDownSharp className='icon' />
                     </button>
-                    <div className={`dropdown-container ${activeDropdown === index ? 'active' : ''}`} style={{ display: activeDropdown === index ? 'block' : 'none' }}>
+                    <div  className={`dropdown-container ${activeDropdown === index ? 'active' : ''}`} style={{ display: activeDropdown === index ? 'block' : 'none' }}>
                         <p className={`${activeDropdown === index ? 'active' : ''}`}>{item.content}</p>
                     </div>
                 </div>

@@ -35,6 +35,12 @@
             box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
 
+            &:hover {
+                box-shadow: none;
+                background-color: var(--OrangeColor);
+                transition: .1s ease-in;
+            }
+
             @media screen and (max-width: 1400px) {
                 height: 4.3rem;
             }
@@ -113,6 +119,12 @@
                 height: auto;
                 font-size: 1.1rem;
                 font-weight: 500;
+
+                &:hover {
+                    box-shadow: none;
+                    background-color: var(--OrangeColor);
+                    transition: .1s ease-in;
+                }
 
                 @media screen and (max-width: 1400px) {
                     font-size: 1rem;

@@ -5,11 +5,11 @@ const Jadwal = () => {
     return (
     <section className='jadwal' id='JADWAL'>
         <div className='container'>
-            <div className="title">
+            <div className="title" data-aos="fade-up">
                 <h1>JADWAL BIMBA</h1>
             </div>
             <div className="content">
-                <div className="textContent">
+                <div className="textContent" data-aos="flip-up">
                     <div className="day">SENIN</div>
                     <div className="activities">
                         <ul>
@@ -18,7 +18,7 @@ const Jadwal = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="textContent">
+                <div className="textContent" data-aos="flip-up">
                     <div className="day">SELASA</div>
                     <div className="activities">
                         <ul>
@@ -27,7 +27,7 @@ const Jadwal = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="textContent">
+                <div className="textContent" data-aos="flip-up">
                     <div className="day">RABU</div>
                     <div className="activities">
                         <ul>
@@ -36,7 +36,7 @@ const Jadwal = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="textContent">
+                <div className="textContent" data-aos="flip-up">
                     <div className="day">KAMIS</div>
                     <div className="activities">
                         <ul>
@@ -45,7 +45,7 @@ const Jadwal = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="textContent">
+                <div className="textContent" data-aos="flip-up">
                     <div className="day">JUM'AT</div>
                     <div className="activities">
                         <ul>
@@ -54,7 +54,7 @@ const Jadwal = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="textContent">
+                <div className="textContent"data-aos="flip-up">
                     <div className="day">SABTU</div>
                     <div className="activities">
                         <ul>

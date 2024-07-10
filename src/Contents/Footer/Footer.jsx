@@ -8,7 +8,7 @@ const Footer = () => {
     return (
             <section className='footer' id='FOOTER'>
                 <div className="content flex">
-                    <div className="logoDiv">
+                    <div className="logoDiv" data-aos="fade-up">
                     <div className="logo flex">
                         <img src={utama} alt="logo" className='icon'/>
                         <span className='grid'>
@@ -17,7 +17,7 @@ const Footer = () => {
                         </span>
                     </div>
                     </div>
-                    <div className="hubungi grid">
+                    <div className="hubungi grid" data-aos="fade-up">
                         <h3>HUBUNGI KAMI</h3>
                         <h5>UNIT PERUMAHAN TAMAN PALUMBON ASRI</h5>
                         <a href="https://wa.me/+621316334626"><FaWhatsapp className='icon'/> 0813-1633-4626 (Miss Dyah)</a>
@@ -26,12 +26,12 @@ const Footer = () => {
                         <a href="https://wa.me/+621316334626"><FaWhatsapp className='icon'/> 0813-1633-4626 (Miss Dyah)</a>
                         <a href="https://wa.me/+628299718070"><FaWhatsapp className='icon'/> 0882-9971-8070 (Miss Nissa)</a>
                     </div>
-                    <div className="unit grid">
+                    <div className="unit grid" data-aos="fade-up">
                         <h3>UNIT BIMBA</h3>
                         <a href="https://maps.app.goo.gl/afNTFjayyny9VU2p9"><MdLocationPin className='icon'/> Perumahan Bumi Cipta Laras Blok A no 26 <br/> Jl. Selaras 1 Blok A no 26 Klari</a>
                         <a href="https://maps.app.goo.gl/zAWhkLa9ixbyGdSU8"><MdLocationPin className='icon'/> Perumahan Taman Palumbon Asri<br/>Blok A no 21</a>
                     </div>
-                    <div className="medsos grid">
+                    <div className="medsos grid" data-aos="fade-up">
                         <h3>MEDIA SOSIAL</h3>
                         <a href="https://www.instagram.com/bimbaife_official/"><FaInstagram className='icon'/> bimbaife_official</a>
                     </div>

@@ -5,10 +5,10 @@ import { tentang1, tentang2, tentang3 } from '../../Assets'
 const Tentang = () => {
     return (
         <section className="tentang" id='TENTANG'>
-            <h1 className="title">TENTANG KAMI</h1>
+            <h1 className="title" data-aos="fade-up">TENTANG KAMI</h1>
             <div className="apa flex">
-                <img src={tentang1} alt="" />
-                <div className="textContent grid">
+                <img src={tentang1} alt="" data-aos="flip-left"/>
+                <div className="textContent grid" data-aos="fade-up">
                     <h3>Apa itu<span> BIMBA <span className='IFE'>IFE</span> ?</span></h3>
                     <p>Bimba IFE adalah bimbingan belajar terkemuka yang berkomitmen untuk memberikan pendidikan berkualitas tinggi bagi anak-anak. Di Bimba IFE, kami percaya bahwa setiap anak memiliki potensi luar biasa yang perlu dikembangkan sejak dini. Oleh karena itu, kami menawarkan tiga program unggulan yang dirancang untuk memenuhi kebutuhan pendidikan anak Anda: Baca Tulis Hitung (Calistung), Bahasa Inggris, dan Jarimatika.</p>
                     <h4>Fasilitas Kami</h4>
@@ -21,8 +21,8 @@ const Tentang = () => {
                 </div>
             </div>
             <div className="kenapa flex">
-                <img src={tentang2} alt="" />
-                <div className="textContent grid">
+                <img src={tentang2} alt="" data-aos="flip-right"/>
+                <div className="textContent grid" data-aos="fade-up">
                     <h3>Mengapa memilih<span> BIMBA <span className='IFE'>IFE</span> ?</span></h3>
                     <ul>
                         <li>Jadwal belajar yg seru, selain Calistung setiap hri anak akan mendapatkan kegiatan yg berbeda beda seperti  kreatifitas/montessori/b.arab/b.english,dsb</li>
@@ -33,8 +33,8 @@ const Tentang = () => {
                 </div>
             </div>
             <div className="visimisi flex">
-                <img src={tentang3} alt="" />
-                <div className="textContent grid">
+                <img src={tentang3} alt="" data-aos="flip-left"/>
+                <div className="textContent grid" data-aos="fade-up">
                     <h3>Visi & Misi<span> BIMBA <span className='IFE'>IFE</span> ?</span></h3>
                     <h4>Visi</h4>
                     <p>Menjadi bimbingan belajar terdepan yang berkomitmen untuk mengembangkan potensi akademik dan kreativitas anak-anak Indonesia melalui metode pembelajaran yang inovatif dan menyenangkan.</p>

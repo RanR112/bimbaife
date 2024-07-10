@@ -88,33 +88,34 @@
   margin: auto;
 }
 .ketentuan .container .content {
-  padding: 1rem 9rem;
+  width: 80%;
+  padding: 1rem;
   margin: auto;
   font-weight: bold;
   font-size: 1.1rem;
 }
+.ketentuan .container .content:hover {
+  background-color: rgba(177, 177, 177, 0.3);
+  transition: 0.2s ease-in;
+}
 @media screen and (max-width: 1400px) {
   .ketentuan .container .content {
     font-size: 1rem;
-    padding: 1rem 8rem;
   }
 }
 @media screen and (max-width: 1200px) {
   .ketentuan .container .content {
     font-size: 0.9rem;
-    padding: 1rem 7rem;
   }
 }
 @media screen and (max-width: 700px) {
   .ketentuan .container .content {
     font-size: 0.8rem;
-    padding: 1rem 4rem;
   }
 }
 @media screen and (max-width: 500px) {
   .ketentuan .container .content {
     font-size: 0.7rem;
-    padding: 1rem 3rem;
   }
 }
 .ketentuan .container .content span {

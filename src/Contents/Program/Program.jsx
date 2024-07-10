@@ -30,8 +30,8 @@ const Program = () => {
 
     return (
         <section className="program" id='PROGRAM'>
-            <img src={doodle} alt="" />
-            <div className="content">
+            <img src={doodle} alt=""/>
+            <div className="content" data-aos="fade-up" data-aos-delay="200">
                 <img src={currentImage} alt="program" className='image'/>
             </div>
         </section>

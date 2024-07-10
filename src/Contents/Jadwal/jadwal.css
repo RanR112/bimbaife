@@ -35,6 +35,11 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+.jadwal .container .title:hover {
+  box-shadow: none;
+  background-color: var(--OrangeColor);
+  transition: 0.1s ease-in;
+}
 @media screen and (max-width: 1400px) {
   .jadwal .container .title {
     height: 4.3rem;
@@ -123,6 +128,11 @@
   height: auto;
   font-size: 1.1rem;
   font-weight: 500;
+}
+.jadwal .container .content .textContent:hover {
+  box-shadow: none;
+  background-color: var(--OrangeColor);
+  transition: 0.1s ease-in;
 }
 @media screen and (max-width: 1400px) {
   .jadwal .container .content .textContent {
