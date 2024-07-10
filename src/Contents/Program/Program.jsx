@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import "./program.css"
 import { doodle } from "../../Assets"
-import { AiFillSchedule } from "react-icons/ai";
-import { FaCalendarAlt } from "react-icons/fa";
-import { IoTime } from "react-icons/io5";
-import { FaMoneyBills } from "react-icons/fa6";
-import { FaMoneyBillWave } from "react-icons/fa";
+// import { AiFillSchedule } from "react-icons/ai";
+// import { FaCalendarAlt } from "react-icons/fa";
+// import { IoTime } from "react-icons/io5";
+// import { FaMoneyBills } from "react-icons/fa6";
+// import { FaMoneyBillWave } from "react-icons/fa";
 import image from "../../Assets/program.png"
 import image2 from "../../Assets/program2.png"
 
