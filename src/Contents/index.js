@@ -1,0 +1,8 @@
+export {default as Navbar} from "./Navbar/Navbar"
+export {default as Home} from "./Home/Home"
+export {default as Tentang} from "./Tentang/Tentang"
+export {default as Program} from "./Program/Program"
+export {default as Jadwal} from "./Jadwal/Jadwal"
+export {default as Pendaftaran} from "./Pendaftaran/Pendaftaran"
+export {default as Ketentuan} from "./Ketentuan/Ketentuan"
+export {default as Footer} from "./Footer/Footer"

@@ -1,0 +1,217 @@
+:root {
+  --PrimaryColor: rgb(255, 138, 0);
+  --OrangeColor: rgb(255, 202, 142);
+  --DarkOrangeColor: rgb(255, 115, 0);
+  --SecondaryColor: rgb(255,255,255);
+  --Gradient1: linear-gradient(to right, rgb(0,0,0), rgb(102,102,102));
+  --Gradient2: linear-gradient(to right, rgb(255,255,255), rgb(62,62,62));
+  --Text: rgb(0, 0, 0);
+  --Hover: rgb(80,80,80);
+}
+
+.home {
+  background: linear-gradient(180deg, #FF9519 0%, #A55900 100%);
+  min-height: 95vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+.home .top {
+  width: 100%;
+  margin-top: 2rem;
+  z-index: 1;
+}
+@media screen and (min-width: 1200px) {
+  .home .top {
+    margin-top: 0rem;
+  }
+}
+.home .top .topimg {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home .bot {
+  width: 100%;
+  margin-bottom: -0.4rem;
+}
+.home .bot .botimg {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home .mid {
+  background: none;
+  position: relative;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+@media screen and (max-width: 885px) {
+  .home .mid {
+    display: grid;
+    place-items: center;
+  }
+}
+.home .mid .logo {
+  width: 20rem;
+}
+@media screen and (max-width: 1200px) {
+  .home .mid .logo {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home .mid .logo {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 885px) {
+  .home .mid .logo {
+    width: 13rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .mid .logo {
+    width: 11rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .home .mid .logo {
+    width: 9rem;
+  }
+}
+.home .mid .textContent {
+  display: grid;
+  color: white;
+  width: 50%;
+}
+.home .mid .textContent h1 {
+  font-size: 3.5rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home .mid .textContent h1 span {
+  font-family: "Just Another Hand", cursive;
+}
+@media screen and (max-width: 1200px) {
+  .home .mid .textContent h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home .mid .textContent h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 885px) {
+  .home .mid .textContent h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .mid .textContent h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .home .mid .textContent h1 {
+    font-size: 1.4rem;
+  }
+}
+.home .mid .textContent h4 {
+  font-size: 1.6rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1200px) {
+  .home .mid .textContent h4 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home .mid .textContent h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 885px) {
+  .home .mid .textContent h4 {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .mid .textContent h4 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .home .mid .textContent h4 {
+    font-size: 0.7rem;
+  }
+}
+.home .mid .textContent .btnDaftar {
+  width: 10rem;
+  margin: 0;
+  margin-left: -1.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  color: var(--SecondaryColor);
+  background-color: var(--PrimaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.25));
+}
+@media screen and (max-width: 885px) {
+  .home .mid .textContent .btnDaftar {
+    margin: auto;
+  }
+}
+.home .mid .textContent .btnDaftar p {
+  font-size: 1rem;
+  margin: auto;
+  padding: auto;
+}
+@media screen and (max-width: 885px) {
+  .home .mid .textContent .btnDaftar p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .mid .textContent .btnDaftar p {
+    font-size: 0.6rem;
+  }
+}
+.home .mid .textContent .btnDaftar:hover {
+  background-color: var(--OrangeColor);
+  color: var(--PrimaryColor);
+}
+.home .mid .textContent .btnDaftar:active {
+  background: none;
+  border: 1px solid white;
+}
+@media screen and (max-width: 885px) {
+  .home .mid .textContent .btnDaftar {
+    border-radius: 8px;
+    width: 9rem;
+    height: 2.3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .mid .textContent .btnDaftar {
+    border-radius: 6px;
+    width: 7rem;
+    height: 2rem;
+  }
+}/*# sourceMappingURL=home.css.map */

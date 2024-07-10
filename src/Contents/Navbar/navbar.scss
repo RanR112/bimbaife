@@ -1,0 +1,477 @@
+:root {
+    --PrimaryColor: rgb(255, 138, 0);
+    --OrangeColor: rgb(255, 202, 142);
+    --DarkOrangeColor: rgb(255, 115, 0);
+    --SecondaryColor: rgb(255,255,255);
+    --Gradient1: linear-gradient(to right, rgb(0,0,0), rgb(102,102,102));
+    --Gradient2: linear-gradient(to right, rgb(255,255,255), rgb(62,62,62));
+    --Text: rgb(0, 0, 0);
+    --Hover: rgb(80,80,80);
+}
+
+.header-scroll {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 4rem !important;
+    z-index: 1000;
+    box-shadow: 0 1px 4px rgba(140, 140, 141, 0.549);
+    transition: .5s ease-in-out;
+
+    .logo {
+        color: var(--Text);
+        font-weight: 600;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+
+        .icon {
+            width: 3.5rem;
+            filter: drop-shadow(0 2px 4px rgba(140, 140, 141, 0.6));
+        }
+
+        h1 {
+            font-family: "Just Another Hand", cursive;
+            font-size: 2.8rem;
+            margin-top: auto;
+            margin-left: 20px;
+            margin-bottom: auto;
+            text-shadow: 0 2px 4px rgba(140, 140, 141, 0.6);
+            transition: .5s ease-in;
+
+            span {
+                font-family: "Just Another Hand", cursive;
+                margin-left: .7rem;
+                color: rgb(255, 138, 0);
+                transition: .5s ease-in;
+            }
+        }
+
+        h4 {
+            font-size: .78rem;
+            margin-left: 20px;
+            font-weight: 800 !important;
+            margin-top: -8px;
+            color: #4A4A4A;
+            text-shadow: 0 2px 4px rgba(140, 140, 141, 0.6);
+            transition: .5s ease-in;
+        }
+    }
+
+    .navBar {
+        .navLists {      
+            .navItem {
+                .navLink {
+                    color: black !important;
+                    font-size: .9rem;
+                    font-weight: 800 !important;
+                    &:hover {
+                        color: var(--DarkOrangeColor)!important;  
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    width: 100%;
+    padding: 0.5rem 4rem !important;
+    z-index: 1000;
+    transition: .5s ease-in-out;
+
+    .logo {
+        color: black;
+        font-weight: 600;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+
+        .icon {
+            width: 3.5rem;
+        }
+
+        h1 {
+            font-family: "Just Another Hand", cursive;
+            font-size: 2.8rem;
+            margin-top: auto;
+            margin-left: 20px;
+            margin-bottom: auto;
+            color: white;
+            text-shadow: 0 2px 4px rgba(71, 71, 71, 0.6);
+            transition: .5s ease-in;
+
+            span {
+                font-family: "Just Another Hand", cursive;
+                margin-left: .7rem;
+                color: rgb(0, 0, 0);
+                text-shadow: 0 2px 4px rgba(198, 198, 198, 0.6);
+                transition: .5s ease-in;
+            }
+        }
+
+        h4 {
+            font-size: .78rem;
+            margin-left: 20px;
+            font-weight: 800 !important;
+            margin-top: -8px;
+            color: #f1f1f1;
+            text-shadow: 0 2px 4px rgba(140, 140, 141, 0.6);
+            transition: .5s ease-in;
+        }
+    }
+
+    .navBar {
+        .navLists {      
+            .navItem {
+                .navLink {
+                    color: black !important;
+                    font-size: .9rem;
+                    font-weight: 800 !important;
+                    &:hover {
+                        color: var(--SecondaryColor)!important;  
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .header-scroll {   
+        padding: 0.5rem 1rem !important;
+
+        .logo {
+            .icon {
+                width: 2.8rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem !important;
+                margin-left: .5rem;
+                margin-bottom: -3px;
+
+                span {
+                    margin-left: .4rem;
+                }
+            }
+
+            h4 {
+                font-size: .5rem;
+                margin-top: -3px;
+                margin-left: .5rem;
+            }
+        }
+
+        .navBar {
+            position: absolute;
+            background: var(--SecondaryColor);
+            height: max-content;
+            width: 80%;
+            border-radius: 1rem;
+            top: -500rem;
+            left: 50%;
+            padding: 0.5rem;
+            transform: translate(-50%);
+            z-index: 2000;
+            box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+            transition: .5s ease-in-out;
+
+
+            .navLists {
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                margin: auto;
+                padding: .5rem 0;
+                
+                .navItem {
+                    padding-left: .5rem 0;
+                    margin: .3rem 0;
+
+                    .navLink {
+                        color: var(--Text) !important;
+                        font-size: .9rem;
+                        font-weight: 600;
+                        &:hover {
+                            color: var(--PrimaryColor)!important;
+                        }
+                    }
+                }
+            }
+
+            .closeNavbar {
+                position: absolute;
+                top: 1rem;
+                right: 1.5rem;
+                color: var(--PrimaryColor);
+                &:hover {
+                    color: var(--OrangeColor);
+                }
+            }
+        }
+
+        .activeNavbar {
+            top: 5rem;
+        }
+
+        .toggleNavbar {
+            .icon {
+                margin-top: 0.6rem;
+                font-size: 25px;
+                color: var(--Text) !important;
+            }
+            &:hover.icon{
+                color: var(--OrangeColor);
+            }
+        }
+    }
+
+    
+
+    .header {   
+        padding: 0.5rem 1rem !important;
+
+        .logo {
+            .icon {
+                width: 2.8rem;
+                
+            }
+            
+            h1 {
+                font-size: 1.8rem !important;
+                margin-left: .5rem;
+                margin-bottom: -3px;
+
+                span {
+                    margin-left: .4rem;
+                }
+            }
+
+            h4 {
+                font-size: .5rem;
+                margin-top: -3px;
+                margin-left: .5rem;
+            }
+        }
+
+        .navBar {
+            position: absolute;
+            background: var(--SecondaryColor);
+            height: max-content;
+            width: 80%;
+            border-radius: 1rem;
+            top: -500rem;
+            left: 50%;
+            padding: 0.5rem;
+            transform: translate(-50%);
+            z-index: 2000;
+            box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+            transition: .5s ease-in-out;
+
+
+            .navLists {
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                margin: auto;
+                padding: .5rem 0;
+                
+                .navItem {
+                    padding-left: .5rem 0;
+                    margin: .3rem 0;
+
+                    .navLink {
+                        color: var(--Text) !important;
+                        font-size: .9rem;
+                        font-weight: 600;
+                        &:hover {
+                            color: var(--PrimaryColor)!important;
+                        }
+                    }
+                }
+            }
+
+            .closeNavbar {
+                position: absolute;
+                top: 1rem;
+                right: 1.5rem;
+                color: var(--PrimaryColor);
+                &:hover {
+                    color: var(--OrangeColor);
+                }
+            }
+        }
+
+        .activeNavbar {
+            top: 5rem;
+        }
+    }
+
+    .toggleNavbar {
+        .icon {
+            margin-top: 0.6rem;
+            font-size: 25px;
+            color: var(--Text);
+        }
+        &:hover.icon{
+            color: var(--OrangeColor) !important;
+        }
+    }
+}
+
+// =============== MEDIA QUERIES ==============
+
+@media screen and (min-width: 885px) {
+    .toggleNavbar, .closeNavbar {
+        display: none;
+    }
+
+    .header-scroll {
+        padding: 1.5rem 2rem;
+
+        .logo {
+            .icon {
+                width: 4rem;
+            }
+        }
+
+        .navBar {
+            .navLists {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                .navItem {
+                    .navLink {
+                        color: var(--Text);
+                        padding: 0 0.45rem;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        display: inline-block;
+                        position: relative;
+
+                        &::after {
+                            background: none repeat scroll 0 0 transparent;
+                            bottom: 0;
+                            content: "";
+                            display: block;
+                            height: 2px;
+                            left: 50%;
+                            position: absolute;
+                            background: var(--PrimaryColor);
+                            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                            width: 0;
+                        }
+
+                        &:hover{
+                            color: var(--PrimaryColor);
+                            transition: .3s;
+                        }
+
+                        &:hover::after {
+                            width: 100%; 
+                            left: 0; 
+                        }
+                    }
+                }               
+            }
+        }
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+
+        .logo {
+            .icon {
+                width: 4rem;
+            }
+        }
+
+        .navBar {
+            .navLists {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                .navItem {
+                    .navLink {
+                        color: var(--Text);
+                        padding: 0 0.45rem;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        display: inline-block;
+                        position: relative;
+
+                        &::after {
+                            background: none repeat scroll 0 0 transparent;
+                            bottom: 0;
+                            content: "";
+                            display: block;
+                            height: 2px;
+                            left: 50%;
+                            position: absolute;
+                            background: var(--SecondaryColor);
+                            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                            width: 0;
+                        }
+
+                        &:hover{
+                            color: var(--SecondaryColor);
+                            transition: .3s;
+                            text-shadow: 0 2px 4px rgba(255, 255, 255, 0.6);
+                        }
+
+                        &:hover::after {
+                            width: 100%; 
+                            left: 0;
+                            text-shadow: 0 2px 4px rgba(255, 255, 255, 0.6);
+                        }
+                    }
+                }               
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .header-scroll {
+        .navBar {
+            .navLists {
+                .navItem {
+                    padding: 0 0.7rem;
+                }
+            }
+        }
+    }
+    
+    .header {
+        .navBar {
+            .navLists {
+                .navItem {
+                    padding: 0 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .header-scroll {
+        padding: 1rem 8.5rem;
+    }
+    
+    .header {
+        padding: 1rem 8.5rem;
+    }
+}

@@ -1,0 +1,28 @@
+:root {
+  --PrimaryColor: rgb(255, 138, 0);
+  --OrangeColor: rgb(255, 202, 142);
+  --DarkOrangeColor: rgb(255, 115, 0);
+  --SecondaryColor: rgb(255,255,255);
+  --Gradient1: linear-gradient(to right, rgb(0,0,0), rgb(102,102,102));
+  --Gradient2: linear-gradient(to right, rgb(255,255,255), rgb(62,62,62));
+  --Text: rgb(0, 0, 0);
+  --Hover: rgb(80,80,80);
+}
+
+.program {
+  background: linear-gradient(180deg, #C66B00 0%, #FFBE72 100%);
+  min-height: 50vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.program .content {
+  margin: auto;
+  padding: 2rem 0;
+}
+.program .content .image {
+  width: 80%;
+  height: auto;
+}/*# sourceMappingURL=program.css.map */
