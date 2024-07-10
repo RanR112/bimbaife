@@ -14,7 +14,7 @@ const Home = () => {
                     <h1>Ayo, Mulai Petualangan Belajarmu Bersama  <span>BIMBA  IFE  !</span></h1>
                     <h4>Gabung dengan pengajar keren dan teman baru untuk petualangan belajar yang menyenangkan dan penuh prestasi!</h4>
                     <div className='btn'>
-                        <a href="#Daftar" className='btnDaftar'>
+                        <a href="#PENDAFTARAN" className='btnDaftar'>
                             <p>Daftar</p>
                         </a>
                     </div>
