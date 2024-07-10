@@ -1,0 +1,209 @@
+:root {
+    --PrimaryColor: rgb(255, 138, 0);
+    --OrangeColor: rgb(255, 202, 142);
+    --DarkOrangeColor: rgb(255, 115, 0);
+    --SecondaryColor: rgb(255,255,255);
+    --Gradient1: linear-gradient(to right, rgb(0,0,0), rgb(102,102,102));
+    --Gradient2: linear-gradient(to right, rgb(255,255,255), rgb(62,62,62));
+    --Text: rgb(0, 0, 0);
+    --Hover: rgb(80,80,80);
+}
+
+.program {
+    background: linear-gradient(180deg, #C66B00 0%, #FFBE72 100%);
+    min-height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+    .content {
+        margin: auto;
+        padding: 2rem 0;
+
+        .image {
+            width: 80%;
+            height: auto;
+        }
+    }
+    // .layer {
+    //     margin: 5rem;
+    //     padding: 1rem 0;
+    //     background: rgba(255, 255, 255, 0.6);
+    //     justify-content: center;
+    //     align-items: center;
+    //     place-items: center;
+    //     height: fit-content;
+    //     border-radius: 20px;
+
+    //     .title {
+    //         font-size: 2.5rem;
+    //         position: relative;
+    //         width: max-content;
+    //         margin: auto;
+    //         padding: 0 2rem;
+
+    //         span {
+    //             color: var(--PrimaryColor);
+    //         }
+
+    //         @media screen and (max-width: 1400px) {
+    //             font-size: 2.2rem;
+    //         }
+    
+    //         @media screen and (max-width: 1200px) {
+    //             font-size: 2rem;
+    //         }
+    
+    //         @media screen and (max-width: 700px) {
+    //             font-size: 1.8rem;
+    //         }
+    
+    //         @media screen and (max-width: 500px) {
+    //             font-size: 1.5rem;
+    //         }
+    //     }
+
+    //     .line {
+    //         width: 100%;
+    //         height: 6px;
+    //         background-color: var(--PrimaryColor);
+    //         border: none;
+    //     }
+
+    //     .content {
+    //         margin: auto;
+    //         align-items: center;
+
+    //         h3 {
+    //             font-size: 2rem;
+    //             position: relative;
+    //             width: max-content;
+    //             margin: auto;
+    //             padding: 0 1rem;
+    //             margin-bottom: 1rem;
+    //             margin-top: 2rem;
+    //             border-bottom: 6px solid var(--PrimaryColor);
+    //             justify-items: center;
+    //             align-items: center;
+    //             display: flex;
+
+    //             .iconTitle {
+    //                 margin-right: .3rem;
+    //             }
+    //         }
+
+    //         .kelas {
+    //             .container {
+    //                 margin: auto;
+    //                 text-align: center;
+    //                 align-items: center;
+    //                 justify-content: space-between;
+    //                 gap: 3rem;
+    //                 width: 100%;
+    
+    //                 .line2 {
+    //                     width: 6px;
+    //                     height: 130px;
+    //                     background-color: var(--PrimaryColor);
+    //                     border: none;
+    //                 }
+    
+    //                 .textContent {
+    //                     padding: 1rem;
+    
+    //                     h4 {
+    //                         background-color: var(--PrimaryColor);
+    //                         border-radius: 20px;
+    //                         color: white;
+    //                         padding: .5rem;
+    //                         font-size: 1.1rem;
+    //                         width: 110%;
+    //                         margin-bottom: .5rem;
+    //                     }
+    
+    //                     h5 {
+    //                         text-align: left;
+    //                         font-size: 1rem;
+    //                         justify-items: center;
+    //                         align-items: center;
+    //                         display: flex;
+
+    //                         .icon {
+    //                             margin-right: .3rem;
+    //                         }
+    //                     }
+    
+    //                     ul {
+    //                         text-align: left;
+
+    //                         li {
+    //                             padding-top: .1rem;
+    //                             justify-items: center;
+    //                             align-items: center;
+    //                             display: flex;
+
+    //                             .icon {
+    //                                 margin-right: .3rem;
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+
+    //         .spp {
+    //             .container {
+    //                 margin: auto;
+    //                 text-align: center;
+    //                 align-items: center;
+    //                 justify-content: space-between;
+    //                 gap: 3rem;
+    //                 width: 100%;
+    
+    //                 .line2 {
+    //                     width: 6px;
+    //                     height: 130px;
+    //                     background-color: var(--PrimaryColor);
+    //                     border: none;
+    //                 }
+    
+    //                 .textContent {
+    //                     padding: 1rem;
+    
+    //                     h4 {
+    //                         background-color: var(--PrimaryColor);
+    //                         border-radius: 20px;
+    //                         color: white;
+    //                         padding: .5rem;
+    //                         font-size: 1.1rem;
+    //                         width: 100%;
+    //                         margin-bottom: .5rem;
+    //                     }
+    
+    //                     ul {
+    //                         text-align: left;
+
+    //                         .none {
+    //                             color: rgba(255, 255, 255, 0.1);
+    //                         }
+
+    //                         li {
+    //                             padding-top: .1rem;
+    //                             justify-items: center;
+    //                             align-items: center;
+    //                             display: flex;
+
+    //                             .icon {
+    //                                 margin-right: .3rem;
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+            
+    //     }
+    // }
+}

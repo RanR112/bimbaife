@@ -1,0 +1,169 @@
+:root {
+  --PrimaryColor: rgb(255, 138, 0);
+  --OrangeColor: rgb(255, 202, 142);
+  --DarkOrangeColor: rgb(255, 115, 0);
+  --SecondaryColor: rgb(255,255,255);
+  --Gradient1: linear-gradient(to right, rgb(0,0,0), rgb(102,102,102));
+  --Gradient2: linear-gradient(to right, rgb(255,255,255), rgb(62,62,62));
+  --Text: rgb(0, 0, 0);
+  --Hover: rgb(80,80,80);
+}
+
+.footer {
+  background: #4A4A4A;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  margin-top: 0;
+}
+.footer .content {
+  justify-content: space-around;
+  align-items: start;
+  margin: auto;
+  padding: 2rem;
+}
+.footer .content .logo {
+  color: var(--Text);
+  font-weight: 600;
+  display: flex;
+}
+.footer .content .logo .icon {
+  width: 10rem;
+}
+@media screen and (max-width: 885px) {
+  .footer .content .logo .icon {
+    width: 6rem;
+  }
+}
+.footer .content .logo h1 {
+  font-family: "Just Another Hand", cursive;
+  font-size: 2.8rem;
+  margin-left: 15px;
+  margin-bottom: auto;
+  transition: 0.5s ease-in;
+}
+.footer .content .logo h1 span {
+  font-family: "Just Another Hand", cursive;
+  margin-left: 0.7rem;
+  color: rgb(255, 138, 0);
+  transition: 0.5s ease-in;
+}
+.footer .content .logo h4 {
+  font-size: 0.78rem;
+  margin-left: 15px;
+  font-weight: 800 !important;
+  margin-top: -8px;
+  color: #ffffff;
+  transition: 0.5s ease-in;
+}
+.footer .content h3 {
+  color: var(--PrimaryColor);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1400px) {
+  .footer .content h3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer .content h3 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer .content h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer .content h3 {
+    font-size: 0.9rem;
+  }
+}
+.footer .content a {
+  color: white;
+  font-size: 1rem;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 1400px) {
+  .footer .content a {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer .content a {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer .content a {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer .content a {
+    font-size: 0.7rem;
+  }
+}
+.footer .content a:hover {
+  color: var(--PrimaryColor);
+}
+.footer .content a .icon {
+  margin-right: 0.5rem;
+}
+.footer .content h5 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+@media screen and (max-width: 1400px) {
+  .footer .content h5 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer .content h5 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer .content h5 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer .content h5 {
+    font-size: 0.7rem;
+  }
+}
+.footer .footerDiv {
+  text-align: center;
+  background-color: var(--PrimaryColor);
+  color: white;
+  font-weight: bold;
+  margin-top: 6rem;
+  height: 2rem;
+  padding-top: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .footer .content {
+    justify-content: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .content h3 {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 885px) {
+  .footer .content {
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=footer.css.map */
